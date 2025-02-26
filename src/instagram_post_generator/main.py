@@ -68,12 +68,14 @@ def main():
         st.markdown(f"""
             <div style='padding: 20px; border-radius: 10px; background-color: #f8f9fa; border: 1px solid #dee2e6;'>
                 <p style='font-size: 16px; line-height: 1.6; margin: 0;'>{ad_copy}</p>
+            </div>
         """, unsafe_allow_html=True)
         
         st.subheader("🎨 MidJourney Image Description")
         st.markdown(f"""
                         <div style='padding: 20px; border-radius: 10px; background-color: #f8f9fa; border: 1px solid #dee2e6;'>
                             <p style='font-size: 16px; line-height: 1.6; margin: 0;'>{image}</p>
+                        </div>
                     """, unsafe_allow_html=True)
       
 
