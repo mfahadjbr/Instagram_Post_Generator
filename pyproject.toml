@@ -1,0 +1,22 @@
+[project]
+name = "instagram-post-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mfahadjbr", email = "mfahadjbr@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "crewai[tools]>=0.102.0",
+    "streamlit>=1.42.2",
+    "unstructured>=0.10.30",
+]
+
+[project.scripts]
+instagram-post-generator = "instagram_post_generator:main"
+kickoff="instagram_post_generator.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
